@@ -7,6 +7,11 @@ title: 'ScratchTools Docs',
   projectName: 'docs',
   trailingSlash: false,
   favicon: 'https://cdn.glitch.global/cb2bf217-ffc5-4d43-a8ef-956942c7aa4d/favicon.png?v=1655008522709',
+    plugins: [
+    '@docusaurus/plugin-content-blog',
+    '@docusaurus/plugin-content-pages',
+  ],
+  themes: ['@docusaurus/theme-classic'],
   themeConfig: {
     navbar: {
       title: 'ScratchTools Docs',
